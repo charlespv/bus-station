@@ -18,4 +18,7 @@
             - Ligne 13
         - Weather : Montreuil
 
-https://xd.adobe.com/spec/ac8be334-1c32-48a8-49da-a2554303409e-daba/screen/98bbc00b-62f6-41eb-9425-bab15ce77731/iPhone-6-7-8-3/
+Links:
+- https://xd.adobe.com/spec/ac8be334-1c32-48a8-49da-a2554303409e-daba/screen/98bbc00b-62f6-41eb-9425-bab15ce77731/iPhone-6-7-8-3/
+
+- https://weblog.west-wind.com/posts/2014/Jan/06/JavaScript-JSON-Date-Parsing-and-real-Dates
