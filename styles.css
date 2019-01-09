@@ -79,15 +79,12 @@ p{
     padding: 1rem 1rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-}
-
 /* Card */ 
 
 nav {
-    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
 }
 
 .content-card{
