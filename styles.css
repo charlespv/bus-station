@@ -98,9 +98,14 @@ nav {
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 2px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     border-radius: 5px;
     box-shadow: 0px 0px 12px 0px #e4e7ff;
+}
+
+.twitter-frame {
+    box-shadow: 0px 0px 12px 0px #e4e7ff;
+    border-radius: 5px;
 }
 
 /* Button */
