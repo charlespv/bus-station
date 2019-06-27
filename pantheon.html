@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bus Ratp</title>
+    <!-- Compiled and minified CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:600,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Compiled and minified JavaScript -->
+    <script
+      async
+      src="https://platform.twitter.com/widgets.js"
+      charset="utf-8"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body>
+    <header class="flexbox-centering">
+      <nav>
+        <div class="left-corner">
+          <h1>
+            Panthéon - Aller / Retour
+          </h1>
+        </div>
+        <div class="right-corner">
+          <!-- 
+          <button onclick="" class="btn  btn-refresh">R</button>
+          -->
+        </div>
+      </nav>
+    </header>
+    <main class="flexbox-centering">
+      <!-- Aller : 95 Chauvelot  -->
+      <div class="content-card">
+        <div class="subtitle">
+          Bus - ligne 95 - Porte de Montmartre
+        </div>
+        <h2>
+          Chauvelot
+        </h2>
+        <div class="time">
+          <span class="time-main" id="myText-1"> </span>
+          <span class="time-sub" id="myText-2"> </span>
+        </div>
+      </div>
+      <!-- Aller : 89 Rue de Rennes  -->
+      <div class="content-card">
+        <div class="subtitle">
+          Bus - ligne 89 - Porte de France
+        </div>
+        <h2>
+          Rennes - Littré
+        </h2>
+        <div class="time">
+          <span class="time-main" id="89rennes-1"> </span>
+          <span class="time-sub" id="89rennes-2"> </span>
+        </div>
+      </div>
+      <!-- Retour : 89 Panthéon  -->
+      <div class="content-card">
+        <div class="subtitle">
+          Bus - ligne 89 - Gare de Vanves - Malakoff
+        </div>
+        <h2>
+          Panthéon
+        </h2>
+        <div class="time">
+          <span class="time-main" id="89pantheon-1"> </span>
+          <span class="time-sub" id="89pantheon-2"> </span>
+        </div>
+      </div>
+      <!-- Retour : 95 Rue de Rennes  -->
+      <div class="content-card">
+        <div class="subtitle">
+          Bus - ligne 95 - Porte de Vanves
+        </div>
+        <h2>
+          Rennes - Littré
+        </h2>
+        <div class="time">
+          <span class="time-main" id="95rennes-1"> </span>
+          <span class="time-sub" id="95rennes-2"> </span>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
